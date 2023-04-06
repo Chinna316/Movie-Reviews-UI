@@ -7,6 +7,16 @@
     height: 300px;
 }
 
+.Movie-poster > img{
+    height: 100%;
+    width: 100%;
+}
+
 .Movie-card-container{
+    height: 550px;
+    background-color: black;
+}
+
+.Movie-card{
     
 }
