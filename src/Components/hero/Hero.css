@@ -5,6 +5,9 @@
 
 .Movie-poster{
     height: 300px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .Movie-poster > img{
