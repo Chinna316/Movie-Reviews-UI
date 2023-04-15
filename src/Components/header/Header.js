@@ -9,7 +9,14 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <Navbar bg='dark' variant='dark' expand='1g'>
+        <Container fluid>
+            <Navbar.Brand href='/' style={{'color':'gold'}}>
+                <FontAwesomeIcon icon={faVideoSlash}/>Gold
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls='navbarScroll' />
+        </Container>
+    </Navbar>
   )
 }
 
